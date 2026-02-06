@@ -237,3 +237,17 @@ function get_list_of_shoppingcart_events() {
     }
     return $eventinformation;
 }
+
+/**
+ * Register allowed table subclasses for wunderbyte_table cache validation.
+ * This allows mod_booking tables to be properly validated when deserialized from cache.
+ *
+ * @return array List of fully qualified class names allowed for cache deserialization.
+ */
+function local_shopping_cart_wunderbyte_table_allowed_classes() {
+    return [
+        'local_shopping_cart\\table\\cash_report_table',
+        'local_shopping_cart\\table\\coupons_table',
+        'local_shopping_cart\\table\\installments_table',
+    ];
+}
