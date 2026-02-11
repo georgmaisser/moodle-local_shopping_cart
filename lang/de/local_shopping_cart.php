@@ -335,6 +335,7 @@ muss - nach der ersten Zahlung - die Hälfte des offenen Betrags nach 50 Tagen
 und der Rest nach 100 Tagen bezahlt werden.';
 $string['duedatevariable'] = 'Fällig N Tage nach erster Anzahlung';
 $string['duedatevariable_help'] = 'Anzahl Tage NACH der ersten Anzahlung nach denen der volle Betrag überwiesen worden sein muss. Achtung: Der Kursstart kann auch der Start des Semesters sein, je nach Plugin-Einstellung "canceldependenton"';
+$string['editcoupon'] = 'Gutscheincode bearbeiten';
 $string['ee'] = "Estland";
 $string['el'] = "Griechenland";
 $string['email'] = 'E-Mail';

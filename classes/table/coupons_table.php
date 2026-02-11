@@ -169,7 +169,7 @@ class coupons_table extends wunderbyte_table {
         global $OUTPUT;
 
         $actionbuttons[] = [
-            'label' => get_string('addcoupon', 'local_shopping_cart'),
+            'label' => get_string('editcoupon', 'local_shopping_cart'),
             'class' => 'btn btn-primary',
             'href' => '#',
             // 'methodname' => 'deleteitem',
